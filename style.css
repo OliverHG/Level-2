@@ -35,10 +35,7 @@ a {
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #6E7E90;
-}
+
 
 .header .logo {
   display: block;
