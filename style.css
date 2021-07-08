@@ -1,17 +1,17 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #CED7DC;
 }
 
 a {
-  color: #800000  !important;
+  color: #4B5D65  !important;
 }
 
 /* header */
 
 .header {
-  background-color: #fff;
+  background-color: #CED7DC;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -23,19 +23,19 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #CED7DC;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  border-right: 1px solid #CED7DC;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #6E7E90;
 }
 
 .header .logo {
@@ -66,7 +66,7 @@ a {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #CED7DC;
   display: block;
   height: 2px;
   position: relative;
@@ -76,7 +76,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #CED7DC;
   content: '';
   display: block;
   height: 100%;
