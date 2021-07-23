@@ -148,3 +148,12 @@ a {
   	height: auto;	
   }
 }
+
+
+.logopic{
+  height: 10px;
+}
+
+.hide{
+    background-color: white !important;
+}
