@@ -160,3 +160,16 @@ a {
   width: 200px;
   padding: 20px;
 }
+
+.testmarg{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.marg1{
+  margin-bottom: 1000px;
+  margin-top: 1000px;
+}
+
+html{scroll-behavior: smooth;}
+
