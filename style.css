@@ -276,17 +276,18 @@ color: red;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: #4b4c4d;
 }
 
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
+  width: 200px;
   background-color: #555;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 30px 0;
   position: absolute;
   z-index: 1;
   bottom: 125%;
@@ -304,6 +305,7 @@ color: red;
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+  color: #4b4c4d;
 }
 
 /* Toggle this class - hide and show the popup */
