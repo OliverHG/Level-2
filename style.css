@@ -148,8 +148,13 @@ a {
   	height: auto;	
   }
 
+/* Main Body */
 
 
+.txtspace {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .hide{
     background-color: white !important;
