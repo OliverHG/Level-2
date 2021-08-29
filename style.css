@@ -409,6 +409,14 @@ background-color: rgba(100,100,100, 0.5);}
   top: 0;
 }
 
+.numbertextdark {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
