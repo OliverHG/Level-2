@@ -69,7 +69,7 @@ if (isset($_POST['Email'])) {
 
     <!-- include your success message below -->
 
-    Thank you for contacting us. We will be in touch with you very soon.
+    Thank you for contacting us. We will be in touch with you very soon. To return to the website press <a href="index.html">here</a>
 
 <?php
 }

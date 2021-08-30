@@ -126,11 +126,13 @@ label.fcf-label {
     border-color: #4B5D65;
 }
 
+/* set as a comment to disable code until future changes
+
 .fcf-btn-primary:hover {
     color: #fff;
     background-color: #4B5D65;
     border-color: #4B5D65;
-}
+}.  */
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
