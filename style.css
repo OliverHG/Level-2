@@ -65,6 +65,10 @@ a {
   user-select: none;
 }
 
+.menu-icon{
+  background: #fff !important;
+}
+
 .header .menu-icon .navicon {
   background: #CED7DC;
   display: block;
@@ -160,10 +164,21 @@ a {
     background-color: white !important;
 }
 
+.destext {
+  font-size: 80px;
+}
 
 .imagelogo{
   width: 200px;
   padding: 20px;
+}
+
+.margz{
+  margin-bottom: 30px;
+}
+
+.titlemargin{
+ padding: 50px;
 }
 
 .testmarg{
@@ -175,6 +190,18 @@ a {
   margin-bottom: 100px;
   margin-top: 100px;
 }
+
+.marga{
+  margin-bottom: 129px;
+  margin-top: 100px;
+}
+
+.margc{
+  margin-bottom: 105px;
+  margin-top: 100px;
+}
+
+
 
 .marg2{
   margin-bottom: 400px;
@@ -569,4 +596,11 @@ anchors are inline so you need ot make them block to go full width
 }
 
 
+.hidetext {
+  color: white;
+}
 
+.contbreaker {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
