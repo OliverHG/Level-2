@@ -165,7 +165,7 @@ a {
 }
 
 .destext {
-  font-size: 80px;
+  font-size: 500%;
 }
 
 .imagelogo{
@@ -225,7 +225,7 @@ color: red;
 
 .footer-clean {
   padding:50px 0;
-  background-color:#fff;
+  background-color: #CED7DC;
   color:#4b4c4d;
 }
 
