@@ -483,3 +483,10 @@ button:hover, a:hover {
   margin: auto;
   text-align: center;
 }
+
+/*slider*/
+
+.slidermagin {
+  margin-bottom: 1000px;
+}
+
