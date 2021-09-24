@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-color: #CED7DC;
+  background-color: #CED7DC; /* grey */
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 /* header */
 
 .header {
-  background-color: #CED7DC;
+  background-color: #CED7DC; /* grey */
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -26,13 +26,13 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #CED7DC;
+  background-color: #CED7DC; /* grey */
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #CED7DC;
+  border-right: 1px solid #CED7DC; /* grey */
   text-decoration: none;
 }
 
@@ -326,7 +326,7 @@ color: red;
   visibility: hidden;
   width: 200px;
   background-color: #555;
-  color: #fff;
+  color: #fff; /* white */
   text-align: center;
   border-radius: 6px;
   padding: 30px 0;
@@ -346,7 +346,7 @@ color: red;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #555 transparent transparent transparent; /* grey */
   color: #4b4c4d;
 }
 
@@ -381,7 +381,8 @@ z-index: 100;
 top: 0; left: 0; 
 width:100%;
 height:100%; 
-background-color: rgba(100,100,100, 0.5);}
+background-color: rgba(100,100,100, 0.5); /* grey */
+}
 
 
 
@@ -401,7 +402,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #000; /* black */
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -412,7 +413,7 @@ button {
   text-decoration: none;
   font-size: 22px;
   color: white;
-  background-color: #4B5D65;
+  background-color: #4B5D65; /* blue / grey */
 }
 
 button:hover, a:hover {
@@ -489,4 +490,37 @@ button:hover, a:hover {
 .slidermargin {
   margin-top: 100px;
 }
+
+.desphotos {
+  width: 100%;
+  position: relative;
+  float: right;
+  margin-right: 5%;
+}
+
+.phtpad{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.widehead{
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  font-size-adjust: 100px;
+}
+
+.contabout{
+  width: 100%;
+}
+
+.floatright{
+  float: right;
+}
+
+.floatleft{
+  float: left;
+}
+
 
