@@ -54,6 +54,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="contact-form.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -141,11 +142,231 @@
 
 </div>  <!-- column 3 closer -->            
 
-</div> <!-- row closer -->
+</div> <!-- row closer (closes the column section of the site) -->
+
+<div class="widehead"> <h1> Designs </h1> </div>
+
+
+<div class="desphotos">
+
+    <img src="Images/Carousel/Cimg5.jpg">
+
+<p class="phtpad"> If your wanting the fastest new boat to tear up the competition</p>
+
+    <img src="Images/Carousel/Cimg6.jpg">
+
+<p class="phtpad"> Or I you just want a comfortable boat to cruise around in</p>
+
+    <img src="Images/Carousel/Cimg7.jpg">
+
+<p class="phtpad"> The Bob Graham Design is the one for you!</p>    
+
+</div>  
+
+
+<div class="widehead"> <h1> Contact </h1> </div>
 
 
 
-</div> <!-- container closer -->
+
+
+<!-- about me box -->
+
+<div class="contabout">
+
+<div class="floatleft">
+
+<div class="card">
+  <img src="images/about/about1.png" alt="Photo of Bob Graham" class="center imgpad" style="width:60%">
+  <h2 class="cardpad">Bob Graham</h2>
+  <p class="title">Yacht Designer</p>
+
+
+  <!-- Trigger/Open The Modal -->
+<button id="myBtn" class="btncolor hvr-bounce-to-right">About Me</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+
+<!-- Modal content -->
+<div class="modal-content">
+  <div class="modal-header1">
+    <span class="close">&times;</span>
+    <h2 class="abttext">About Me</h2>
+  </div>
+  <div class="modal-body">
+    <p>As an offshore racer and delivery sailor, I have competed in races all around the world, including the Whitbread Round the World Race and 1988 America's Cup. I have been able to use this experience to design and engineer components and solutions for racing and cruising yachts all over the globe. From AC72 catamarans to 12 metres, Volvo race yachts to +30m Superyachts.</p>
+    <p>I have been involved with 5 America's Cup campaigns since I began, as a bowman, in 1987.</p>
+    <p>Yacht steering systems, Superyacht transom doors and rotating anchor arms are my speciality.</p>
+  </div>
+  <div class="modal-footer1">
+  </div>
+</div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</div> 
+
+</div>
+
+
+<div class="floatright">
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block hvr-bounce-to-right">Submit</button>
+        </div>
+
+       
+
+    </form>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footsep"></div>
+
+</div> <!-- container closer (closes the whole site just before the footer) -->
+
+<!-- Footer -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#desmov">Designs</a></li>
+                            <li><a href="#contmov">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="https://www.nzsailingtrust.com/lionnewzealand">Designer</a></li>
+                            <li><a href="https://vimeo.com/432371868">Video</a></li>
+                            <li><div class="popup poplink" onclick="myFunction()"> <p class="poplink"> Website </p>
+  <span class="popuptext" id="myPopup"> Webpage   Under   Construction    to   Contact   Website   Designer     Email:  og16@mahurangi.school.nz</span>
+</div></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        
+                    </div>
+                    <div class="col-lg-3 item social "><a href="#"><i class="icon ion-social-facebook"></i></a><a href="https://www.yachtingdevelopments.co.nz/news/2020/6/11/kr5h1f4x7v9sdn0ujz3ldvok6tcirh"><i class="icon ion-social-chrome"></i></a><a href="https://nz.linkedin.com/in/bob-graham-48748a2b"><i class="icon ion-social-linkedin"></i></a>
+                        <p class="copyright">Bob Graham Design © 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+ <!-- Footer -->
+
+
+<!-- Pop up Message -->
+</body>
+</html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
+
 
 
 
