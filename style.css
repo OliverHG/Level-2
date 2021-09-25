@@ -493,9 +493,6 @@ button:hover, a:hover {
 
 .desphotos {
   width: 100%;
-  position: relative;
-  float: right;
-  margin-right: 5%;
 }
 
 .phtpad{
@@ -534,6 +531,6 @@ margin-bottom: 1000px;
 
 .movementspacing{
   margin-top: 50px;
-  margin-bottom: 3000px;
+  margin-bottom: 300px;
 }
 
